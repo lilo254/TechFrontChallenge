@@ -8,9 +8,9 @@
 # Part 1
 
 In your favourite language, create an abstract data type representing a class( School class) 
-Name it Darasa. Darasa should be constructed using a list of string of lists representing class members. 
+Name it Darasa. Darasa should be constructed using a list of strings representing class members. 
 
-Darasa should have methods with the following methods with specifications as described:
+Darasa should have methods with specifications as described:
 Function specifications have been listed above the methods to be implemented. 
 
 ```
@@ -24,6 +24,8 @@ returns: Darasa member added or something else if member exists
 def addClassMember(name):
 
 
+
+
 '''
 removes member from this Darasa. 
 If member does not exist in the Darasa, handle it as you please. 
@@ -33,20 +35,27 @@ returns: Darasa member removed from class or something else if member does not e
 def removeClassMember(name):
 
 
+
+
+
 '''
 returns the members of this class
 '''
 def getDarasaMembers(name):
 
+
+
+
 ```
 
-implement these in a file labelled with your lastName, firstName , Darasa. eg. techFront.py or techFront.java
+implement these in a file labelled with your lastName, firstName. eg. techFront.py or techFront.java
 submit a pull request for this part of the assignment
 
 # Part 2
 
 Now we have a representation of a class: ```Darasa```. If you completed part 1 of the assignment, congratualations! If not, sleeves 
 up!
+
 We want to have a school registry representing all members of the school. We will call this ```Shule```. ```Shule``` will represent a school. 
 
 Since we don't have an actual school to represent, let's fake some data for our school!
@@ -56,10 +65,10 @@ would be ideal if you named the instances  ```standard1```, ```standard2``` and 
 variable names. 
 
 Create an abstract data type called ```Shule```. ```Shule``` will be constructed by passing in a string, representing the name of the school. 
-```Shule``` should have a private field ```shule```, a dictionary mapping  of  String className to Darasa darasa a class representation. It should 
+```Shule``` should have a private field ```shule```, a dictionary mapping  of  String className to a Daraasa Instance. It should 
 also have ```shuleName``` the name of the school.   
  
-```Shule``` should have methods with the following methods with specifications as described:
+```Shule``` should have methods with specifications as described:
 Function specifications have been listed above the methods to be implemented. 
 
 
@@ -72,12 +81,20 @@ returns Dictionary representation of school
 '''
 def addDarasa(name, darasa):
 
+
+
+
+
 '''
 removes a darasa entry from the school Registry. 
 arguements: String DarasaName 
 returns: modified Dictionary representation of school
 '''
 def removeDarasa(name): 
+
+
+
+
 
 '''
 returns an unmodifieable array of shuleName and Dictionary representation of Shule
