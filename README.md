@@ -2,10 +2,10 @@
 
 1. Fork this repository into your computer
 
-2.  # Coding Assignment
+ # Coding Assignment
 
 
-Part 1
+# Part 1
 
 In your favourite language, create an abstract data type representing a class( School class) 
 Name it Darasa. Darasa should be constructed using a list of string of lists representing class members. 
@@ -14,27 +14,28 @@ Darasa should have methods with the following methods with specifications as des
 Function specifications have been listed above the methods to be implemented. 
 
 ```
+'''
 adds a new  member into the Darasa. 
 This method does not allow for duplicate Darasa members. If this member exists, handle it 
 as you please. 
 arguements: String name 
 returns: Darasa member added or something else if member exists 
-
+'''
 def addClassMember(name):
 
 
-
+'''
 removes member from this Darasa. 
 If member does not exist in the Darasa, handle it as you please. 
 Arguements: String name
 returns: Darasa member removed from class or something else if member does not exist
-
+'''
 def removeClassMember(name):
 
 
-
+'''
 returns the members of this class
-
+'''
 def getDarasaMembers(name):
 
 ```
@@ -42,7 +43,7 @@ def getDarasaMembers(name):
 implement these in a file labelled with your lastName, firstName , Darasa. eg. techFront.py or techFront.java
 submit a pull request for this part of the assignment
 
-Part 2
+# Part 2
 
 Now we have a representation of a class: ```Darasa```. If you completed part 1 of the assignment, congratualations! If not, sleeves 
 up!
@@ -63,21 +64,25 @@ Function specifications have been listed above the methods to be implemented.
 
 
 ```
+'''
 adds a darasa to the school Registy 
 returns the modified dictionary representation of the school.
 arguements: String darasaName, Darasa darasa
 returns Dictionary representation of school
-def addDarasa:
+'''
+def addDarasa(name, darasa):
 
-
+'''
 removes a darasa entry from the school Registry. 
 arguements: String DarasaName 
 returns: modified Dictionary representation of school
-def removeDarasa 
+'''
+def removeDarasa(name): 
 
-
+'''
 returns an unmodifieable array of shuleName and Dictionary representation of Shule
-def getShule:
+'''
+def getShule():
 
 ```
 
